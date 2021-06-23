@@ -1,0 +1,252 @@
+/* ===|| Font Intigration Start ||=== */
+@font-face{
+    font-family: 'Ptsans bold';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+@font-face{
+    font-family: 'ptsans boldlt';
+    src: url(../fonts/PTSans-Boldlt.ttf);
+}
+@font-face{
+    font-family: 'ptsans regular';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+/* ===|| Font Intigration End ||=== */
+
+/* ===||common section||=== */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'ptsans regular';
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* ===||common section end||=== */
+
+/* ===||header section start||=== */
+header{
+    background-color: #fcdb00;
+    padding: 20px 0;
+
+}
+.logo{
+
+}
+.menu{}
+.menu ul li a{
+    font-family: 'Ptsans bold';
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0 49px !important;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+    color: white !important;
+}
+/* ===||header section end||=== */
+/* ===||slider css start||=== */
+.slider{
+    background-color: #fcdb00;
+    padding-bottom:105px;
+}
+/**/
+.car-ind {
+    bottom: -82px;
+}
+.car-ind [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/**/
+.slid_text{
+    margin-top: 70px;
+}
+.slid_text h1{
+    margin-bottom: 20px;
+    font-family: 'Ptsans bold';
+    font-weight: 700;
+    font-size: 32px;
+    color: #010101;
+
+}
+.slid_text h4{
+    margin-bottom: 20px;
+    font-family: 'ptsans regular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.slid_text p{
+    font-family: 'ptsans regular';
+    margin-bottom: 35px;
+    font-size: 16px; 
+    font-weight: 400;
+    color: #313841;
+    line-height: 23px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+.slid-icon li{
+    font-size: 42px;
+    color: #010101;
+    padding-right: 30px;
+}
+/* ===||slider css end||=== */
+/* ===||feature css start||=== */
+.c_sect{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.feature{
+
+
+}
+.c-text{
+
+}
+.c-h1{
+    margin-bottom:20px;
+    font-family: 'Ptsans bold';
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c-p{
+    font-family: 'ptsans regular';
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 24px;
+}
+.c_mt_70{
+    margin-top: 70px;
+}
+.si_icon{
+    font-size: 50px;
+    color: #010101;
+}
+.si_text{
+
+}
+
+.si_text h2{
+    margin-bottom: 10px;
+    font-family: 'ptsans regular';
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.si_text p{
+    font-family: 'ptsans regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    letter-spacing: 1.5px;
+    word-spacing:1px;    
+    line-height: 22px;
+}
+
+
+
+/* ===||feature css end||=== */
+/* ===||contact css start||=== */
+.contact{
+    background-color: #010101;
+}
+.c_yellow{
+    color: #fcdb00;
+}
+.c_ash{
+    color: #898989;
+}
+.f_tb{
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+
+}
+.c_email{
+    width: 100%;
+    height: 50px;
+    font-family: 'ptsans regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    background-color: white;
+}
+.c_email:focus {
+    border-color: #fcdb00;
+    box-shadow: 0 0 0 0.2px rgb(252 219 0);
+}
+.b_yellow{
+    width: 100%;
+    height: 50px;
+    background-color: #fcdb00;
+    font-family: 'ptsans regular';
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    transition: .3s;
+
+    
+}
+.b_yellow:hover{
+    background-color: white;
+}
+.soc_icon{}
+.soc_icon ul li a i{
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 42px;
+    color: #fcdb00;
+
+ 
+}
+.soc_icon ul li a i:hover{
+    color: white;
+}
+
+/* ===||contact css end||=== */
+/* ===||footer css end||=== */
+footer{
+    background-color: #010101;
+    padding-bottom: 120px;
+}
+.f_1, .f_2{
+    font-family: 'ptsans regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    text-transform: capitalize;
+
+}
+.f_2 a{
+    color: #ffff !important;
+    text-decoration: none;
+}
+.f_2 a:hover{
+    color: #fcdb00 !important;
+}
+/* ===||contact css end||=== */
+
+

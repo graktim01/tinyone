@@ -1,0 +1,199 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*===||header section||===*/
+	.menu ul li a {
+		font-size: 20px;
+	    text-align: right;
+	    margin-bottom: 10px;
+	    padding: 0px 0px !important;
+	}
+	/*===||header section||===*/
+	/*===||slider section||===*/
+	.slider {
+    	padding-bottom: 60px;
+	}
+	
+	.car-ind {
+    	bottom: -48px;
+	}
+
+	.slid_text {
+    	margin-top: 0px;
+    	text-align: center;
+	}
+	.slid_text h1 {
+    	margin-bottom: 13px;
+    	font-size: 29px;
+	}
+	.slid_text h4 {
+    	margin-bottom: 18px;
+    	font-size: 18px;
+    	color: #313841;
+    	letter-spacing: 1px;
+    	word-spacing:1px;
+    }
+	.slid_text p {
+    	margin-bottom: 20px;
+    	
+	}
+	.slid-icon li {
+    	font-size: 35px;
+	}
+	/*===||slider section||===*/
+	/*===||faetures media css||===*/
+	.c-h1{
+		font-size:29px;
+	}
+	.c_sect{
+    	padding-top: 40px;
+    	padding-bottom: 60px;
+    }
+    .c_mt_70 {
+   		margin-top: 30px;
+	}
+	.si_icon {
+    	font-size: 45px;
+	}
+    .si_text{
+    	text-align: center;
+	}
+	.si_text p {
+		letter-spacing: 0px;
+	 
+}
+	/*===||faetures media css||===*/
+	/*===||contact media css||===*/
+	.f_tb {
+    	margin-top: 24px;
+    	margin-bottom: 40px;
+    }
+    footer{
+		padding-bottom: 60px;
+		text-align: center;
+	}
+	.f_2{
+		margin-top: 25px;
+	}
+	/*===||contact media css||===*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*===||header section||===*/
+	.menu ul li a {
+		font-size: 20px;
+	    text-align: right;
+	    margin-bottom: 10px;
+	    padding: 0px 0px !important;
+	}
+	/*===||header section||===*/
+	/*===||slider section||===*/
+.slider {
+    padding-bottom: 60px;
+}
+	
+.car-ind {
+  bottom: -48px;
+}
+
+.slid_text{
+   margin-top: 0px;
+   text-align: center;
+}
+.slid_text h1{
+   margin-bottom: 13px;
+   font-size: 29px;
+}
+.slid_text h4 {
+    	margin-bottom: 18px;
+    	font-size: 18px;
+    	color: #313841;
+    	letter-spacing: 1px;
+    	word-spacing:1px;
+    }
+.slid_text p{
+   margin-bottom: 20px;
+
+}
+
+.slid-icon li{
+    font-size: 35px;
+ }
+
+/*===||slider section||===*/
+/*===||faetures media css||===*/
+	.c_sect{
+    	padding-top: 60px;
+    	padding-bottom: 80px;
+    }
+    .c_mt_70 {
+    margin-top: 50px;
+	}
+    .si_text{
+    	text-align: center;
+	}
+	 .si_text{
+    	text-align: center;
+	}
+	.si_text p {
+		letter-spacing: 1px;
+	 
+	}
+	/*===||faetures media css||===*/
+	/*===||contact media css||===*/
+	.f_tb {
+    	margin-top: 35px;
+    	margin-bottom: 60px;
+	}
+	footer{
+		padding-bottom: 80px;
+		text-align: center;
+	}
+	.f_2{
+		margin-top: 25px;
+	}
+	/*===||contact media css||===*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*===||header section||===*/
+	.menu ul li a {
+	    text-align: right;
+	    margin-bottom: 10px;
+	    padding: 0px 0px !important;
+	}
+	/*===||header section||===*/
+	/*===||slider media css||===*/
+	.slid_text {
+    	margin-top: 50px;
+		text-align:center;
+	}
+	.slid_text p {||
+    	margin-bottom: 22||px;
+	}
+	/*===||slider media css||===*/
+	/*===||faetures media css||===*/
+	.c_sect{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    }
+	/*===||faetures media css||===*/
+	/*===||contact media css||===*/
+	/*===||contact media css||===*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
